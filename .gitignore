@@ -1,0 +1,25 @@
+# ===================================================================
+# .gitignore for FinalProject (Monorepo)
+# ===================================================================
+
+# 忽略 STM32 项目的编译输出
+# 路径是相对于仓库根目录的
+Saffron_STM32_Core/Debug/
+Saffron_STM32_Core/Release/
+Saffron_STM32_Core/build/
+project_snapshot.txt
+# Python virtual environment
+.venv/
+.direnv/
+.envrc
+venv/
+
+
+# SQLite database files (binary) -- do not commit local data
+# Specific project database
+Saffron_Edge_Server/data.sqlite3
+Saffron_Edge_Server/data.sqlite3-wal
+Saffron_Edge_Server/data.sqlite3-shm
+# Generic pattern (future db files)
+*.sqlite3
+*.jpg
