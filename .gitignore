@@ -23,3 +23,4 @@ Saffron_Edge_Server/data.sqlite3-shm
 # Generic pattern (future db files)
 *.sqlite3
 *.jpg
+repomix-output.xml
